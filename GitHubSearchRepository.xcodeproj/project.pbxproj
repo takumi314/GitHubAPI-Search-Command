@@ -12,6 +12,7 @@
 		E141D1E820DEA70C00557220 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141D1E720DEA70C00557220 /* Repository.swift */; };
 		E141D1EA20DEA91A00557220 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141D1E920DEA91A00557220 /* SearchResponse.swift */; };
 		E141D1ED20DEAA5600557220 /* GitHubClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141D1EC20DEAA5600557220 /* GitHubClientError.swift */; };
+		E141D1EF20DEAB7200557220 /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141D1EE20DEAB7200557220 /* GitHubAPIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		E141D1E720DEA70C00557220 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		E141D1E920DEA91A00557220 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		E141D1EC20DEAA5600557220 /* GitHubClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClientError.swift; sourceTree = "<group>"; };
+		E141D1EE20DEAB7200557220 /* GitHubAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E141D1E520DEA67C00557220 /* User.swift */,
 				E141D1E720DEA70C00557220 /* Repository.swift */,
 				E141D1E920DEA91A00557220 /* SearchResponse.swift */,
+				E141D1EE20DEAB7200557220 /* GitHubAPIError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				E141D1E620DEA67C00557220 /* User.swift in Sources */,
 				E141D1DE20DEA2B700557220 /* main.swift in Sources */,
 				E141D1E820DEA70C00557220 /* Repository.swift in Sources */,
+				E141D1EF20DEAB7200557220 /* GitHubAPIError.swift in Sources */,
 				E141D1ED20DEAA5600557220 /* GitHubClientError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
