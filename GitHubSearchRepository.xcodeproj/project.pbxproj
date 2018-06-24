@@ -71,6 +71,7 @@
 		E141D1DC20DEA2B700557220 /* GitHubSearchRepository */ = {
 			isa = PBXGroup;
 			children = (
+				E141D1F820DFF70A00557220 /* Clients */,
 				E141D1F520DEB03F00557220 /* APIs */,
 				E141D1F220DEACF700557220 /* Requests */,
 				E141D1EB20DEAA1A00557220 /* States */,
@@ -113,6 +114,13 @@
 				E141D1F620DEB06E00557220 /* GitHubAPI.swift */,
 			);
 			path = APIs;
+			sourceTree = "<group>";
+		};
+		E141D1F820DFF70A00557220 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
