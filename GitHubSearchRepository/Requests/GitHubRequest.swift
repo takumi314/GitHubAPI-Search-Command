@@ -31,7 +31,7 @@ enum HTTPMethod: String {
 
 extension GitHubRequest {
     var baseURL: URL {
-        return URL(string: "htps://api.github.com")!
+        return URL(string: "https://api.github.com")!
     }
 
     func buildURLRequest() -> URLRequest {
