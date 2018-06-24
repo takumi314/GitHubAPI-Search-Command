@@ -15,6 +15,7 @@
 		E141D1EF20DEAB7200557220 /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141D1EE20DEAB7200557220 /* GitHubAPIError.swift */; };
 		E141D1F420DEAD8900557220 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141D1F320DEAD8900557220 /* GitHubRequest.swift */; };
 		E141D1F720DEB06E00557220 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141D1F620DEB06E00557220 /* GitHubAPI.swift */; };
+		E141D1FA20E0072E00557220 /* GitHubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E141D1F920E0072E00557220 /* GitHubClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		E141D1EE20DEAB7200557220 /* GitHubAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
 		E141D1F320DEAD8900557220 /* GitHubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
 		E141D1F620DEB06E00557220 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		E141D1F920E0072E00557220 /* GitHubClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		E141D1F820DFF70A00557220 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
+				E141D1F920E0072E00557220 /* GitHubClient.swift */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				E141D1E820DEA70C00557220 /* Repository.swift in Sources */,
 				E141D1F420DEAD8900557220 /* GitHubRequest.swift in Sources */,
 				E141D1EF20DEAB7200557220 /* GitHubAPIError.swift in Sources */,
+				E141D1FA20E0072E00557220 /* GitHubClient.swift in Sources */,
 				E141D1ED20DEAA5600557220 /* GitHubClientError.swift in Sources */,
 				E141D1F720DEB06E00557220 /* GitHubAPI.swift in Sources */,
 			);
