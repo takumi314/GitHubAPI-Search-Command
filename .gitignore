@@ -69,3 +69,6 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+x86_64.swiftmodule
+GitHubSearchRepository
+x86_64.swiftdoc
