@@ -136,6 +136,7 @@
 				E141D1D620DEA2B700557220 /* Sources */,
 				E141D1D720DEA2B700557220 /* Frameworks */,
 				E141D1D820DEA2B700557220 /* CopyFiles */,
+				E1294E8620E12EEF004A2907 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -178,6 +179,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1294E8620E12EEF004A2907 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -a $BUILT_PRODUCTS_DIR/ $SRCROOT/bin/";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E141D1D620DEA2B700557220 /* Sources */ = {
